@@ -63,12 +63,6 @@ Key calculations include:
 
 ---
 
- 📸 Dashboard Preview
-
-(Add your screenshot here)
-
----
-
 🚀 Key Insights
 
 * Track financial performance over time
