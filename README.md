@@ -1,7 +1,8 @@
 📊 Power BI Project – Financial Performance Dashboard
 ---    
 
-Project Objective
+🎯 Project Objective
+ 
  This project aims to analyze financial performance by comparing **Actual**, **Budget**, and **Forecast** data to identify  trends, measure performance, and support business decision-making.
 
 ---
