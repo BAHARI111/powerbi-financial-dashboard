@@ -1,96 +1,65 @@
-📊 Power BI Project – Financial Performance Dashboard
----    
+# Financial Performance Dashboard
 
-🎯 Project Objective
- 
- This project aims to analyze financial performance by comparing **Actual**, **Budget**, and **Forecast** data to identify  trends, measure performance, and support business decision-making.
+**Actuals, budget and forecasts — a Power BI project by Mohammed Bahari.**
 
----
+Compare financial performance over time and explore differences across regions, departments and cost elements.
 
-📂 Dataset
+**Power BI · Power Query · DAX · Financial Analysis · Star Schema**
 
-The dataset includes multiple tables:
+[Explore the report](powerbi-financial-dashboard/powerbi-financial-dashboard.pbix) · [Browse project files](powerbi-financial-dashboard/) · [My portfolio](https://github.com/BAHARI111/Portfolio)
 
-* **Actuals** – real financial data
-* **Budget** – planned values
-* **Forecast** – updated projections
-* **Calendar** – time dimension
-* **Regions** – geographical segmentation
-* **Departments & Cost Elements** – business structure
+## Dashboard preview
 
----
+![Financial performance dashboard in Power BI](powerbi-financial-dashboard/dashboard.png)
 
-🧹 Data Preparation (Power Query)
+*Static preview. Download the Power BI report to explore its interactive features.*
 
-* Data loading and transformation
-* Data type corrections
-* Formatting and categorization
-* Data cleaning and validation
+## Business questions
 
----
+- How do actual results compare with budget and forecast?
+- How does performance evolve over time?
+- Which regions, departments and cost elements account for the differences?
 
- 🔗 Data Modeling
+## Project approach
 
-* Relationships built between fact and dimension tables
-* Star schema structure using:
+| Stage | Work covered |
+| --- | --- |
+| Prepare | Load, clean and validate data; correct data types and categories with Power Query |
+| Model | Connect fact and dimension tables using a star schema |
+| Calculate | Build DAX totals for Actual, Budget and Forecast, cumulative measures and comparisons |
+| Explore | Combine KPI indicators, trend charts and time-based filters |
 
-  * Calendar table
-  * Regions
-  * Departments
+The documented model includes a calendar, regions, departments and cost elements to support analysis at different levels.
 
----
+## Explore locally
 
- 📐 DAX Measures
+1. Download the repository using **Code → Download ZIP**, then extract it.
+2. Open [powerbi-financial-dashboard.pbix](powerbi-financial-dashboard/powerbi-financial-dashboard.pbix) in Microsoft Power BI Desktop.
+3. Use the report filters to explore periods and business dimensions.
+4. Before refreshing, check the report's data-source paths and update them to your local files if needed.
 
-Key calculations include:
+**Data availability:** this repository includes Budget and Forecast CSV files and a dimension workbook. A separate Actuals source file is not included, so a complete refresh may require that additional source. Viewing the report and refreshing its source data are separate steps.
 
-* Total Actual, Budget, Forecast
-* Running Total (Cumulative analysis)
-* Budget vs Forecast %
-* KPI indicators
-* Time-based calculations using Calendar table
+## Repository contents
 
----
+| File | Purpose |
+| --- | --- |
+| [Power BI report](powerbi-financial-dashboard/powerbi-financial-dashboard.pbix) | Report and model |
+| [Budget.csv](powerbi-financial-dashboard/Budget.csv) | Budget data |
+| [Forecast.csv](powerbi-financial-dashboard/Forecast.csv) | Forecast data |
+| [dim_tables.xlsx](powerbi-financial-dashboard/dim_tables.xlsx) | Dimension workbook |
+| [dashboard.png](powerbi-financial-dashboard/dashboard.png) | Dashboard screenshot |
 
-📊 Dashboard Features
+## Skills demonstrated
 
-* 📈 Trend analysis (Line charts)
-* 📊 Budget vs Forecast comparison
-* 🎯 KPI indicators
-* 🌍 Regional performance analysis
-* 🧩 Department & cost breakdown
-* 📅 Time-based filtering using slicers
+Power Query data preparation, relational modeling, DAX calculations, cumulative analysis, financial reporting and interactive dashboard design.
 
----
+Key learning challenges included building correct table relationships, understanding running totals and organizing a clear report layout.
 
-🚀 Key Insights
+## Author & related work
 
-* Track financial performance over time
-* Identify gaps between planned and actual values
-* Analyze performance by region and department
-* Support strategic decision-making
+**Mohammed Bahari** · [GitHub](https://github.com/BAHARI111) · [Portfolio](https://github.com/BAHARI111/Portfolio)
 
----
+Also explore my [Sales Dashboard](https://github.com/BAHARI111/Sales-Dashboard-Power-BI).
 
- ⚠️ Challenges
-
-* Understanding DAX (especially running totals)
-* Building correct relationships between tables
-* Designing an interactive and clear dashboard
-
----
-
- 🎓 Skills Developed
-
-* Data Modeling (Star Schema)
-* Power Query (Data Cleaning)
-* DAX (Intermediate level)
-* Financial Data Analysis
-* Dashboard Design
-
----
-
-👤 Author
-
-Mohammed Bahari .
-
+See [LICENSE](LICENSE) for the repository's license terms.
